@@ -1,0 +1,40 @@
+{
+	"name": "sveltejs-typestore",
+	"version": "0.0.1",
+	"author": "H6LS1S",
+	"license": "MIT",
+	"description": "Class-based reactive store for Svelte with decorators",
+	"homepage": "https://github.com/H6LS1S/sveltejs-typestore",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/H6LS1S/sveltejs-typestore.git"
+	},
+	"keywords": [
+		"decorators",
+		"store",
+		"plugin",
+		"svelte",
+		"sveltekit",
+		"vite"
+	],
+	"scripts": {
+		"build": "tsc",
+		"format": "prettier --write .",
+		"lint": "prettier --check ."
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"svelte": "^5.36.17",
+		"typescript": "^5.8.3"
+	},
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"import": "./dist/index.js",
+		"types": "./dist/index.d.ts"
+	}
+}
